@@ -1,0 +1,123 @@
+Setting options('download.file.method.GEOquery'='auto')
+Setting options('GEOquery.inmemory.gpl'=FALSE)
+Loading required package: Biobase
+Loading required package: BiocGenerics
+
+Attaching package: 'BiocGenerics'
+
+The following objects are masked from 'package:stats':
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from 'package:base':
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, setdiff, table,
+    tapply, union, unique, unsplit, which.max, which.min
+
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+Using locally cached version of GSE80002 found here:
+C:\Users\Rafael\repos\personal\geo_data_analysis2\geo_data_analysis\geo_data_analysis\data/GSE80002/GSE80002.soft.gz 
+Reading file....
+Parsing....
+Found 91 entities...
+GPL3154 (1 of 92 entities)
+GSM2109778 (2 of 92 entities)
+GSM2109779 (3 of 92 entities)
+GSM2109780 (4 of 92 entities)
+GSM2109781 (5 of 92 entities)
+GSM2109782 (6 of 92 entities)
+GSM2109783 (7 of 92 entities)
+GSM2109784 (8 of 92 entities)
+GSM2109785 (9 of 92 entities)
+GSM2109786 (10 of 92 entities)
+GSM2109787 (11 of 92 entities)
+GSM2109788 (12 of 92 entities)
+GSM2109789 (13 of 92 entities)
+GSM2109790 (14 of 92 entities)
+GSM2109791 (15 of 92 entities)
+GSM2109792 (16 of 92 entities)
+GSM2109793 (17 of 92 entities)
+GSM2109794 (18 of 92 entities)
+GSM2109795 (19 of 92 entities)
+GSM2109796 (20 of 92 entities)
+GSM2109797 (21 of 92 entities)
+GSM2109798 (22 of 92 entities)
+GSM2109799 (23 of 92 entities)
+GSM2109800 (24 of 92 entities)
+GSM2109801 (25 of 92 entities)
+GSM2109802 (26 of 92 entities)
+GSM2109803 (27 of 92 entities)
+GSM2109804 (28 of 92 entities)
+GSM2109805 (29 of 92 entities)
+GSM2109806 (30 of 92 entities)
+GSM2109807 (31 of 92 entities)
+GSM2109808 (32 of 92 entities)
+GSM2109809 (33 of 92 entities)
+GSM2109810 (34 of 92 entities)
+GSM2109811 (35 of 92 entities)
+GSM2109812 (36 of 92 entities)
+GSM2109813 (37 of 92 entities)
+GSM2109814 (38 of 92 entities)
+GSM2109815 (39 of 92 entities)
+GSM2109816 (40 of 92 entities)
+GSM2109817 (41 of 92 entities)
+GSM2109818 (42 of 92 entities)
+GSM2109819 (43 of 92 entities)
+GSM2109820 (44 of 92 entities)
+GSM2109821 (45 of 92 entities)
+GSM2109822 (46 of 92 entities)
+GSM2109823 (47 of 92 entities)
+GSM2109824 (48 of 92 entities)
+GSM2109825 (49 of 92 entities)
+GSM2109826 (50 of 92 entities)
+GSM2109827 (51 of 92 entities)
+GSM2109828 (52 of 92 entities)
+GSM2109829 (53 of 92 entities)
+GSM2109830 (54 of 92 entities)
+GSM2109831 (55 of 92 entities)
+GSM2109832 (56 of 92 entities)
+GSM2109833 (57 of 92 entities)
+GSM2109834 (58 of 92 entities)
+GSM2109835 (59 of 92 entities)
+GSM2109836 (60 of 92 entities)
+GSM2109837 (61 of 92 entities)
+GSM2109838 (62 of 92 entities)
+GSM2109839 (63 of 92 entities)
+GSM2109840 (64 of 92 entities)
+GSM2109841 (65 of 92 entities)
+GSM2109842 (66 of 92 entities)
+GSM2109843 (67 of 92 entities)
+GSM2109844 (68 of 92 entities)
+GSM2109845 (69 of 92 entities)
+GSM2109846 (70 of 92 entities)
+GSM2109847 (71 of 92 entities)
+GSM2109848 (72 of 92 entities)
+GSM2109849 (73 of 92 entities)
+GSM2109850 (74 of 92 entities)
+GSM2109851 (75 of 92 entities)
+GSM2109852 (76 of 92 entities)
+GSM2109853 (77 of 92 entities)
+GSM2109854 (78 of 92 entities)
+GSM2109855 (79 of 92 entities)
+GSM2109856 (80 of 92 entities)
+GSM2109857 (81 of 92 entities)
+GSM2109858 (82 of 92 entities)
+GSM2109859 (83 of 92 entities)
+GSM2109860 (84 of 92 entities)
+GSM2109861 (85 of 92 entities)
+GSM2109862 (86 of 92 entities)
+GSM2109863 (87 of 92 entities)
+GSM2109864 (88 of 92 entities)
+GSM2109865 (89 of 92 entities)
+GSM2109866 (90 of 92 entities)
+GSM2109867 (91 of 92 entities)
+There were 16 warnings (use warnings() to see them)

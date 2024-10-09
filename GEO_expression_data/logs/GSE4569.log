@@ -1,0 +1,45 @@
+Setting options('download.file.method.GEOquery'='auto')
+Setting options('GEOquery.inmemory.gpl'=FALSE)
+Loading required package: Biobase
+Loading required package: BiocGenerics
+
+Attaching package: 'BiocGenerics'
+
+The following objects are masked from 'package:stats':
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from 'package:base':
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, setdiff, table,
+    tapply, union, unique, unsplit, which.max, which.min
+
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+Using locally cached version of GSE4569 found here:
+C:\Users\Rafael\repos\personal\geo_data_analysis2\geo_data_analysis\geo_data_analysis\data/GSE4569/GSE4569.soft.gz 
+Reading file....
+Parsing....
+Found 8 entities...
+GPL534 (1 of 9 entities)
+GSM102077 (2 of 9 entities)
+GSM102078 (3 of 9 entities)
+GSM102079 (4 of 9 entities)
+GSM102080 (5 of 9 entities)
+GSM102081 (6 of 9 entities)
+GSM102082 (7 of 9 entities)
+GSM102083 (8 of 9 entities)
+Warning messages:
+1: In as.numeric(column) : NAs introduced by coercion
+2: In as.numeric(column) : NAs introduced by coercion
+3: In as.numeric(column) : NAs introduced by coercion
+4: In as.numeric(column) : NAs introduced by coercion
+5: In as.numeric(column) : NAs introduced by coercion

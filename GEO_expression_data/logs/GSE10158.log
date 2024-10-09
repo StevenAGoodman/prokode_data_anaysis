@@ -1,0 +1,76 @@
+Setting options('download.file.method.GEOquery'='auto')
+Setting options('GEOquery.inmemory.gpl'=FALSE)
+Loading required package: Biobase
+Loading required package: BiocGenerics
+
+Attaching package: 'BiocGenerics'
+
+The following objects are masked from 'package:stats':
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from 'package:base':
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, setdiff, table,
+    tapply, union, unique, unsplit, which.max, which.min
+
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+Using locally cached version of GSE10158 found here:
+C:\Users\Rafael\repos\personal\geo_data_analysis2\geo_data_analysis\geo_data_analysis\data/GSE10158/GSE10158.soft.gz 
+Reading file....
+Parsing....
+Found 44 entities...
+GPL199 (1 of 45 entities)
+GSM256868 (2 of 45 entities)
+GSM256869 (3 of 45 entities)
+GSM256870 (4 of 45 entities)
+GSM256871 (5 of 45 entities)
+GSM256872 (6 of 45 entities)
+GSM256873 (7 of 45 entities)
+GSM256874 (8 of 45 entities)
+GSM256875 (9 of 45 entities)
+GSM256876 (10 of 45 entities)
+GSM256877 (11 of 45 entities)
+GSM256878 (12 of 45 entities)
+GSM256879 (13 of 45 entities)
+GSM256880 (14 of 45 entities)
+GSM256881 (15 of 45 entities)
+GSM256882 (16 of 45 entities)
+GSM256883 (17 of 45 entities)
+GSM256884 (18 of 45 entities)
+GSM256885 (19 of 45 entities)
+GSM256886 (20 of 45 entities)
+GSM256887 (21 of 45 entities)
+GSM256888 (22 of 45 entities)
+GSM256889 (23 of 45 entities)
+GSM256890 (24 of 45 entities)
+GSM256891 (25 of 45 entities)
+GSM256892 (26 of 45 entities)
+GSM256893 (27 of 45 entities)
+GSM256894 (28 of 45 entities)
+GSM256895 (29 of 45 entities)
+GSM256896 (30 of 45 entities)
+GSM256897 (31 of 45 entities)
+GSM256898 (32 of 45 entities)
+GSM256899 (33 of 45 entities)
+GSM256900 (34 of 45 entities)
+GSM256901 (35 of 45 entities)
+GSM256902 (36 of 45 entities)
+GSM256903 (37 of 45 entities)
+GSM256904 (38 of 45 entities)
+GSM256905 (39 of 45 entities)
+GSM256906 (40 of 45 entities)
+GSM256907 (41 of 45 entities)
+GSM256908 (42 of 45 entities)
+GSM256909 (43 of 45 entities)
+GSM256910 (44 of 45 entities)
+There were 15 warnings (use warnings() to see them)

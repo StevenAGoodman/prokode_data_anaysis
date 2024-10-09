@@ -1,0 +1,93 @@
+Setting options('download.file.method.GEOquery'='auto')
+Setting options('GEOquery.inmemory.gpl'=FALSE)
+Loading required package: Biobase
+Loading required package: BiocGenerics
+
+Attaching package: 'BiocGenerics'
+
+The following objects are masked from 'package:stats':
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from 'package:base':
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, setdiff, table,
+    tapply, union, unique, unsplit, which.max, which.min
+
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+Using locally cached version of GSE35371 found here:
+C:\Users\Rafael\repos\personal\geo_data_analysis2\geo_data_analysis\geo_data_analysis\data/GSE35371/GSE35371.soft.gz 
+Reading file....
+Parsing....
+Found 61 entities...
+GPL3154 (1 of 62 entities)
+GSM866995 (2 of 62 entities)
+GSM866996 (3 of 62 entities)
+GSM866997 (4 of 62 entities)
+GSM866998 (5 of 62 entities)
+GSM866999 (6 of 62 entities)
+GSM867000 (7 of 62 entities)
+GSM867001 (8 of 62 entities)
+GSM867002 (9 of 62 entities)
+GSM867003 (10 of 62 entities)
+GSM867004 (11 of 62 entities)
+GSM867005 (12 of 62 entities)
+GSM867006 (13 of 62 entities)
+GSM867007 (14 of 62 entities)
+GSM867008 (15 of 62 entities)
+GSM867009 (16 of 62 entities)
+GSM867010 (17 of 62 entities)
+GSM867011 (18 of 62 entities)
+GSM867012 (19 of 62 entities)
+GSM867013 (20 of 62 entities)
+GSM867014 (21 of 62 entities)
+GSM867015 (22 of 62 entities)
+GSM867016 (23 of 62 entities)
+GSM867017 (24 of 62 entities)
+GSM867018 (25 of 62 entities)
+GSM867019 (26 of 62 entities)
+GSM867020 (27 of 62 entities)
+GSM867021 (28 of 62 entities)
+GSM867022 (29 of 62 entities)
+GSM867023 (30 of 62 entities)
+GSM867024 (31 of 62 entities)
+GSM867025 (32 of 62 entities)
+GSM867026 (33 of 62 entities)
+GSM867027 (34 of 62 entities)
+GSM867028 (35 of 62 entities)
+GSM867029 (36 of 62 entities)
+GSM867030 (37 of 62 entities)
+GSM867031 (38 of 62 entities)
+GSM867032 (39 of 62 entities)
+GSM867033 (40 of 62 entities)
+GSM867034 (41 of 62 entities)
+GSM867035 (42 of 62 entities)
+GSM867036 (43 of 62 entities)
+GSM867037 (44 of 62 entities)
+GSM867038 (45 of 62 entities)
+GSM867039 (46 of 62 entities)
+GSM867040 (47 of 62 entities)
+GSM867041 (48 of 62 entities)
+GSM867042 (49 of 62 entities)
+GSM867043 (50 of 62 entities)
+GSM867044 (51 of 62 entities)
+GSM867045 (52 of 62 entities)
+GSM867046 (53 of 62 entities)
+GSM867047 (54 of 62 entities)
+GSM867048 (55 of 62 entities)
+GSM867049 (56 of 62 entities)
+GSM867050 (57 of 62 entities)
+GSM867051 (58 of 62 entities)
+GSM867052 (59 of 62 entities)
+GSM867053 (60 of 62 entities)
+GSM867054 (61 of 62 entities)
+There were 16 warnings (use warnings() to see them)

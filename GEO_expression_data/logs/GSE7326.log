@@ -1,0 +1,57 @@
+Setting options('download.file.method.GEOquery'='auto')
+Setting options('GEOquery.inmemory.gpl'=FALSE)
+Loading required package: Biobase
+Loading required package: BiocGenerics
+
+Attaching package: 'BiocGenerics'
+
+The following objects are masked from 'package:stats':
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from 'package:base':
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, setdiff, table,
+    tapply, union, unique, unsplit, which.max, which.min
+
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+Using locally cached version of GSE7326 found here:
+C:\Users\Rafael\repos\personal\geo_data_analysis2\geo_data_analysis\geo_data_analysis\data/GSE7326/GSE7326.soft.gz 
+Reading file....
+Parsing....
+Found 25 entities...
+GPL199 (1 of 26 entities)
+GSM176689 (2 of 26 entities)
+GSM176690 (3 of 26 entities)
+GSM176691 (4 of 26 entities)
+GSM176692 (5 of 26 entities)
+GSM176693 (6 of 26 entities)
+GSM176694 (7 of 26 entities)
+GSM176695 (8 of 26 entities)
+GSM176696 (9 of 26 entities)
+GSM176697 (10 of 26 entities)
+GSM176698 (11 of 26 entities)
+GSM176699 (12 of 26 entities)
+GSM176700 (13 of 26 entities)
+GSM176701 (14 of 26 entities)
+GSM176702 (15 of 26 entities)
+GSM176703 (16 of 26 entities)
+GSM176704 (17 of 26 entities)
+GSM176705 (18 of 26 entities)
+GSM176706 (19 of 26 entities)
+GSM176707 (20 of 26 entities)
+GSM176708 (21 of 26 entities)
+GSM176709 (22 of 26 entities)
+GSM176710 (23 of 26 entities)
+GSM176711 (24 of 26 entities)
+GSM176712 (25 of 26 entities)
+There were 15 warnings (use warnings() to see them)

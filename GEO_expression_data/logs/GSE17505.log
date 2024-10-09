@@ -1,0 +1,63 @@
+Setting options('download.file.method.GEOquery'='auto')
+Setting options('GEOquery.inmemory.gpl'=FALSE)
+Loading required package: Biobase
+Loading required package: BiocGenerics
+
+Attaching package: 'BiocGenerics'
+
+The following objects are masked from 'package:stats':
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from 'package:base':
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, setdiff, table,
+    tapply, union, unique, unsplit, which.max, which.min
+
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+Using locally cached version of GSE17505 found here:
+C:\Users\Rafael\repos\personal\geo_data_analysis2\geo_data_analysis\geo_data_analysis\data/GSE17505/GSE17505.soft.gz 
+Reading file....
+Parsing....
+Found 31 entities...
+GPL199 (1 of 32 entities)
+GSM436460 (2 of 32 entities)
+GSM436461 (3 of 32 entities)
+GSM436462 (4 of 32 entities)
+GSM436463 (5 of 32 entities)
+GSM436464 (6 of 32 entities)
+GSM436465 (7 of 32 entities)
+GSM436466 (8 of 32 entities)
+GSM436467 (9 of 32 entities)
+GSM436468 (10 of 32 entities)
+GSM436469 (11 of 32 entities)
+GSM436470 (12 of 32 entities)
+GSM436471 (13 of 32 entities)
+GSM436472 (14 of 32 entities)
+GSM436473 (15 of 32 entities)
+GSM436474 (16 of 32 entities)
+GSM436475 (17 of 32 entities)
+GSM436476 (18 of 32 entities)
+GSM436477 (19 of 32 entities)
+GSM436478 (20 of 32 entities)
+GSM436479 (21 of 32 entities)
+GSM436480 (22 of 32 entities)
+GSM436481 (23 of 32 entities)
+GSM436482 (24 of 32 entities)
+GSM436483 (25 of 32 entities)
+GSM436484 (26 of 32 entities)
+GSM436485 (27 of 32 entities)
+GSM436486 (28 of 32 entities)
+GSM436487 (29 of 32 entities)
+GSM436488 (30 of 32 entities)
+GSM436489 (31 of 32 entities)
+There were 15 warnings (use warnings() to see them)

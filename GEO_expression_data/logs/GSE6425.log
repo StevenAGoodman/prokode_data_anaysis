@@ -1,0 +1,77 @@
+Setting options('download.file.method.GEOquery'='auto')
+Setting options('GEOquery.inmemory.gpl'=FALSE)
+Loading required package: Biobase
+Loading required package: BiocGenerics
+
+Attaching package: 'BiocGenerics'
+
+The following objects are masked from 'package:stats':
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from 'package:base':
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, setdiff, table,
+    tapply, union, unique, unsplit, which.max, which.min
+
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+Using locally cached version of GSE6425 found here:
+C:\Users\Rafael\repos\personal\geo_data_analysis2\geo_data_analysis\geo_data_analysis\data/GSE6425/GSE6425.soft.gz 
+Reading file....
+Parsing....
+Found 45 entities...
+GPL199 (1 of 46 entities)
+GSM148081 (2 of 46 entities)
+GSM148082 (3 of 46 entities)
+GSM148083 (4 of 46 entities)
+GSM148084 (5 of 46 entities)
+GSM148085 (6 of 46 entities)
+GSM148086 (7 of 46 entities)
+GSM148087 (8 of 46 entities)
+GSM148088 (9 of 46 entities)
+GSM148089 (10 of 46 entities)
+GSM148090 (11 of 46 entities)
+GSM148091 (12 of 46 entities)
+GSM148092 (13 of 46 entities)
+GSM148093 (14 of 46 entities)
+GSM148094 (15 of 46 entities)
+GSM148095 (16 of 46 entities)
+GSM148096 (17 of 46 entities)
+GSM148097 (18 of 46 entities)
+GSM148098 (19 of 46 entities)
+GSM148099 (20 of 46 entities)
+GSM148100 (21 of 46 entities)
+GSM148101 (22 of 46 entities)
+GSM148102 (23 of 46 entities)
+GSM148103 (24 of 46 entities)
+GSM148104 (25 of 46 entities)
+GSM148105 (26 of 46 entities)
+GSM148106 (27 of 46 entities)
+GSM148107 (28 of 46 entities)
+GSM148108 (29 of 46 entities)
+GSM148109 (30 of 46 entities)
+GSM148110 (31 of 46 entities)
+GSM148111 (32 of 46 entities)
+GSM148112 (33 of 46 entities)
+GSM148113 (34 of 46 entities)
+GSM148114 (35 of 46 entities)
+GSM148115 (36 of 46 entities)
+GSM148116 (37 of 46 entities)
+GSM148117 (38 of 46 entities)
+GSM148118 (39 of 46 entities)
+GSM148119 (40 of 46 entities)
+GSM148120 (41 of 46 entities)
+GSM148121 (42 of 46 entities)
+GSM148122 (43 of 46 entities)
+GSM148123 (44 of 46 entities)
+GSM148124 (45 of 46 entities)
+There were 15 warnings (use warnings() to see them)
