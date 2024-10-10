@@ -2,8 +2,8 @@ import sys
 # inputs
 feature_string = sys.argv[1] # "@@@@@@@@100001000000" #
 data_organism = sys.argv[2] # "Escherichia coli" # 
-genome_length = int(sys.argv[3]) #   # 
-prokode_dir = "/workspaces/prokode" # sys.argv[4] # 
+genome_length = int(sys.argv[3]) # 4500000 # 
+prokode_dir = sys.argv[4] #  "/workspaces/prokode" #
 
 import pandas as pd
 import numpy as np
@@ -38,6 +38,8 @@ def protein_amnts_from_mRNA_amnts(mRNA_amnts):
 def function_for_timepoint(data_t0, data_t1, protein_data_t0, N_rnap, N_ribo, dt, gene_key, tf_key):
      # MOST CRITICAL PART TO DETERMINE!!!
      protein_data_t1 = [None] * len(gene_key)
+     coefficient_submat = []
+     beta_all_subarr = []
 
      for i in range(len(gene_key)):
           gene = gene_key[i]
@@ -54,12 +56,14 @@ def function_for_timepoint(data_t0, data_t1, protein_data_t0, N_rnap, N_ribo, dt
 
           overall_mRNA_change_rate = (data_t1[i] - data_t0[i]) / dt
           coefficient_arr, beta_all, N_rnap, N_ribo, R_max_trans, Kd_ribo, protein_decay_rate_farr, growth_rate_fid, beta_function_fid, translation_rate_fid = beta_from_overall_mRNA(gene, gene_mRNA_t0, overall_mRNA_change_rate, protein_data_t0, gene_info_dict, regulators_dict, gene_key, tf_key, genome_length, Kd_rnap_gene, N_rnap, N_ribo, feature_string)
+          coefficient_submat.append(coefficient_arr)
+          beta_all_subarr.append(beta_all)
 
           # update protein amnts
           overall_protein_change_rate = translation_rate(gene, gene_mRNA_t0, protein_data_t0, N_ribo, gene_info_dict, R_max_trans, Kd_ribo, translation_rate_fid) - protein_decay_rate(gene, protein_data_t0, gene_info_dict, gene_key, growth_rate_fid, protein_decay_rate_farr) * protein_data_t0[i]
           protein_data_t1[i] = protein_data_t0[i] + overall_protein_change_rate * dt
 
-     return coefficient_arr, beta_all, protein_data_t1, N_rnap, N_ribo, beta_function_fid
+     return coefficient_submat, beta_all_subarr, protein_data_t1, N_rnap, N_ribo, beta_function_fid
 
 def fit_function(coefficient_matrix, beta_all_arr, feature_id):
      # clean matrices
@@ -157,13 +161,12 @@ for data_file in data_file_list:
 
                protein_data_t0 = protein_data_matrix[group_data_indecies.index(n)]
 
-               coefficient_arr, beta_all, protein_data_t1, N_rnap, N_ribo, beta_function_fid = function_for_timepoint(data_t0, data_t1, protein_data_t0, N_rnap, N_ribo, dt, gene_key, tf_key)
-               coefficient_matrix.append(coefficient_arr)
-               beta_all_arr.append(beta_all)
+               coefficient_submat, beta_all_subarr, protein_data_t1, N_rnap, N_ribo, beta_function_fid = function_for_timepoint(data_t0, data_t1, protein_data_t0, N_rnap, N_ribo, dt, gene_key, tf_key)
+               coefficient_matrix.extend(coefficient_submat)
+               beta_all_arr.extend(beta_all_subarr)
 
-               col_names.append(f"{data_df.columns[n]} to {data_df.columns[m]}")
                protein_data_matrix.append(protein_data_t1)
-               print(f"\t\t\tbeta all: {beta_all}")
+               print(f"\t\t\tbeta all: {beta_all_subarr}")
 
 # overall function fitting for all data points in an organisms
 beta_arr, covar = fit_function(coefficient_matrix, beta_all_arr, beta_function_fid)
